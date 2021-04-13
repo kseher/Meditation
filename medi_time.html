@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="medi.js"></script>
+    <link rel="manifest" href="manifest.json">
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+
+
+</head>
+<body>
+    <header>
+        <h1>Fokus </h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="option__circle--outer">
+                <div class="option__circle--inner" data-time='5'>
+                    <span class="option__link">5</span>
+                </div>
+            </div>
+            <div class="option__circle--outer">
+                <div class="option__circle--inner" data-time='10'>
+                    <span class="option__link">10</span>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="option__circle--outer">
+                <div class="option__circle--inner"  data-time='15'>
+                    <span class="option__link">15</span>
+                </div>
+            </div>
+            <div class="option__circle--outer">
+                <div class="option__circle--inner" data-time='20'>
+                    <span class="option__link">20</span>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="option__circle--outer">
+                <div class="option__circle--inner"  data-time="25">
+                    <span class="option__link">25</span>
+                </div>
+            </div>
+            <div class="option__circle--outer">
+                <div class="option__circle--inner" data-time="30">
+                    <span class="option__link">30</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="modal">
+        <div class="modal__close">
+            <i class="fa fa-times"></i>
+        </div>
+        <div class="modal__timer">
+            <div class="circle">
+                <div class="circle__outer">
+                    <div class="circle__inner">
+                        <div class="time">
+                            <span class="time__min"></span>
+                            :
+                            <spa class="time__sec"></spa>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal__buttons">
+            <i class="fa fa-play"></i>
+            <i class="fa fa-pause"></i>
+            <i class="fa fa-stop"></i>
+        </div>
+    </div>
+</body>
+</html>
