@@ -14,7 +14,7 @@ const assets = [
 
 // install sw
 
-self.addEventListener( 'install', () => {
+self.addEventListener( 'install', evt => {
     console.log('sw ist insalled')
     // caches
     evt.waitUntil(
